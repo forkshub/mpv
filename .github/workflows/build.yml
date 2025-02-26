@@ -220,7 +220,7 @@ jobs:
           - "macos-15"
         include:
           - os: "macos-13"
-            arch: "intel"
+            arch: "arm"
           - os: "macos-14"
             arch: "arm"
             xcode: "Xcode_15.2"
