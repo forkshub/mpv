@@ -39,9 +39,9 @@ jobs:
         cxx:
           - "clang++"
         os:
-          - "macos-13"
+          - "macos-13-xlarge"
         include:
-          - os: "macos-13"
+          - os: "macos-13-xlarge"
             arch: "arm"
     steps:
       - uses: actions/checkout@v4
